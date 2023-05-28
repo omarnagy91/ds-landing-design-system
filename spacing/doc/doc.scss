@@ -1,0 +1,5 @@
+@use '~/spacing/src/_spacing.scss';
+
+:root {
+  @include spacing.tokens;
+}

@@ -1,0 +1,5 @@
+@use '~/colors/src/_colors.scss';
+
+:root {
+  @include colors.tokens();
+}

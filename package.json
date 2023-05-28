@@ -1,0 +1,18 @@
+{
+  "name": "@backlight-dev/step-guarantee-8j1xi.svelte-li6q3g4j",
+  "version": "2.0.4",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve fKuPoqitcbEJ3Opyz0Wc --open"
+  },
+  "devDependencies": {
+    "@divriots/dockit-core": "^0.7.2",
+    "lit": "^2.0.0"
+  },
+  "dependencies": {
+    "svelte": "^3.44.0"
+  }
+}

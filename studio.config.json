@@ -1,0 +1,32 @@
+{
+  "packages": {
+    "dir": "",
+    "menu": [
+      [
+        "components",
+        [
+          "button",
+          "icon",
+          "theme-switch"
+        ]
+      ],
+      [
+        "tokens",
+        [
+          "colors",
+          "rounded",
+          "borders",
+          "spacing",
+          "opacity",
+          "theme"
+        ]
+      ],
+      [
+        "infrastructure",
+        [
+          "dockit"
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+div[data-story-id] {
+  min-height: 100%;
+  display: grid;
+  grid: 50vmin / 50vmin;
+  place-content: center;
+}

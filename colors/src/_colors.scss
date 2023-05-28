@@ -1,0 +1,15 @@
+@mixin tokens {
+  --palette-white: #fff;
+  --palette-black: #222;
+
+  --palette-white-100: #e5eef5;
+  --palette-white-200: #f6fafd;
+
+  --palette-gray: #444;
+  --palette-gray-light-100: #676778;
+  --palette-gray-light-200: #7b7766;
+
+  --palette-svelte: #ff3e00;
+  --palette-flash: #40b3ff;
+  --palette-highlight: #ffff82;
+}

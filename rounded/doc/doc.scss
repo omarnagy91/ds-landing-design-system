@@ -1,0 +1,5 @@
+@use '~/rounded/src/_rounded.scss';
+
+:root {
+  @include rounded.tokens;
+}

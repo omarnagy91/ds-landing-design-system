@@ -1,0 +1,5 @@
+@use '~/opacity/src/_opacity.scss';
+
+:root {
+  @include opacity.tokens;
+}

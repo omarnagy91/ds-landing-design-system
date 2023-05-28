@@ -1,0 +1,5 @@
+@use '~/borders/src/_borders.scss';
+
+:root {
+  @include borders.tokens;
+}

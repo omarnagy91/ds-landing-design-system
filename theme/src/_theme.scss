@@ -1,0 +1,36 @@
+@use '../../borders/src/borders';
+@use '../../colors/src/colors';
+@use '../../opacity/src/opacity';
+@use '../../rounded/src/rounded';
+@use '../../spacing/src/spacing';
+
+@use './light';
+@use './dark';
+
+@mixin default($global) {
+  #{if($global, ':global(:where(html))', ':where(html)')} {
+    @include borders.tokens;
+    @include colors.tokens;
+    @include opacity.tokens;
+    @include rounded.tokens;
+    @include spacing.tokens;
+
+    @include light.theme;
+    @include dark.theme;
+  }
+
+  #{if($global, ':global(:root)', ':root')} {
+    @include light.mode;
+    @media (prefers-color-scheme: dark) {
+      @include dark.mode;
+    }
+  }
+
+  #{if($global, ':global([color-scheme='light'])', ':where([color-scheme='light'])')} {
+    @include light.mode;
+  }
+
+  #{if($global, ':global([color-scheme='dark'])', ':where([color-scheme='dark'])')} {
+    @include dark.mode;
+  }
+}

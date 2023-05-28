@@ -1,0 +1,30 @@
+@mixin theme {
+  --dark-colors-surface: var(--palette-black);
+  --dark-colors-heading: var(--palette-white-100);
+  --dark-colors-text: var(--palette-white-100);
+
+  --dark-colors-primary: var(--palette-svelte);
+  --dark-colors-text-on-primary: var(--palette-white-100);
+
+  --dark-colors-secondary: var(--palette-flash);
+  --dark-colors-text-on-secondary: var(--palette-white-100);
+
+  --dark-colors-highlight: var(--palette-highlight);
+  --dark-colors-text-on-highlight: var(--palette-gray-light-100);
+}
+
+@mixin mode {
+  color-scheme: dark;
+  --colors-surface: var(--dark-colors-surface);
+  --colors-heading: var(--dark-colors-heading);
+  --colors-text: var(--dark-colors-text);
+
+  --colors-primary: var(--dark-colors-primary);
+  --colors-text-on-primary: var(--dark-colors-text-on-primary);
+
+  --colors-secondary: var(--dark-colors-secondary);
+  --colors-text-on-secondary: var(--dark-colors-text-on-secondary);
+
+  --colors-highlight: var(--dark-colors-highlight);
+  --colors-text-on-highlight: var(--dark-colors-text-on-highlight);
+}
